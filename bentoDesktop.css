@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+}
+
+.first-div{
+    height: 250px;
+    width: 340px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 35px;
+    padding: 5px;
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 1;
+}
+
+.social{
+    margin-top: 30px;
+    margin-left: 60px;
+    text-align: center;
+    inline-size: 200px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.first-span{
+    color: hsl(39, 100%, 71%);
+}
+
+.Faster{
+    font-style: italic;
+}
+
+.illustration-five-stars{
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.Over{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+.second-div{
+    height: 155px;
+    width: 340px;
+    margin-top: 25px;
+    margin-left: 35px;
+    padding: 5px;
+    background-color:hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 8px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.illustration-multiple-platforms{
+    object-fit: cover;
+    height: 67px;
+    width: 300px;
+    margin-top: 12px;
+    margin-left: 3px;
+}
+
+.Manage{
+    margin-top: 10px;
+    margin-left: 10px;
+    inline-size: 260px;
+    font-weight: 500;
+}
+
+.third-div{
+    height: 192px;
+    width: 340px;
+    margin-top: 25px;
+    margin-left: 35px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.Maintain{
+    margin-top: 10px;
+    margin-left: 10px;
+    inline-size: 200px;
+    font-weight: 400;
+}
+
+.illustration-consistent-schedule{
+    height: 120px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.fourth-div{
+    height: 465px;
+    width: 340px;
+    margin-top: 25px;
+    margin-left: 35px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: hsl(254, 88%, 90%);
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.schedule{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: 400;
+    inline-size: 220px
+}
+
+.illustration-schedule-posts{
+    height: 18rem;
+    width: 20rem;
+    margin-top: 20px;
+    margin-left: 5px;
+    object-fit: cover
+}
+
+.Optimize{
+    margin-top: 20px;
+    margin-left: 35px;
+    inline-size: 230px;
+}
+
+.Your{
+    margin-left: 60px;
+}
+
+.fifth-div{
+    height: 330px;
+    width: 340px;
+    background-color: hsl(256, 67%, 59%);
+    margin-top: 25px;
+    margin-left: 35px;
+    padding: 5px;
+    border-radius: 8px;
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.illustration-grow-followers{
+    height: 190px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.Grow{
+    margin-top: 30px;
+    margin-left: 80px;
+    color: hsl(0, 0%, 100%);
+    inline-size: 150px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.content{
+    margin-left: 23px;
+}
+
+.sixth-div{
+    height: 170px;
+    width: 340px;
+    margin-top: 25px;
+    margin-left: 35px;
+    padding: 5px;
+    background-color:hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 8px;
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.percent{
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.faster{
+    margin-top: 2px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.illustration-audience-growth{
+    height: 67px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.seventh-div{
+    height: 200px;
+    width: 340px;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-left: 35px;
+    padding: 5px;
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.Create{
+    margin-top: 30px;
+    margin-left: 25px;
+    inline-size: 250px;
+    font-weight: 400;
+    line-height: 0.9;
+}
+
+.quicker{
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.illustration-create-post{
+    height: 75px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.eighth-div{
+    height: 340px;
+    width: 340px;
+    margin-top: 25px;
+    margin-left: 35px;
+    border-radius: 8px;
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 1;
+    grid-row: 8;
+}
+
+.Write{
+    margin-top: 25px;
+    margin-left: 25px;
+    inline-size: 280px;
+    line-height: 0.7;
+    font-weight: 500;
+}
+
+
+.illustration-ai-content{
+    height: 220px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.attribution{
+    position: relative;
+    top: 20px;
+    left: 0
+}
