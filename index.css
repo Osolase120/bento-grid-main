@@ -1,0 +1,825 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.first-div {
+    height: 250px;
+    width: 400px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 1;
+}
+
+.social {
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: center;
+    inline-size: 260px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.first-span {
+    color: hsl(39, 100%, 71%);
+}
+
+.Faster {
+    font-style: italic;
+}
+
+.illustration-five-stars {
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.Over {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.second-div{
+    height: 155px;
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color:hsl(0, 0%, 100%);
+    border: 4px solid hsl(0, 0%, 100%);;
+    border-radius: 8px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.illustration-multiple-platforms{
+    object-fit: cover;
+    height: 67px;
+    width: 300px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.Manage{
+    margin-top: 10px;
+    margin-left: 20px;
+    inline-size: 300px;
+    font-weight: 500;
+}
+
+.third-div{
+    height: 192px;
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.Maintain{
+    margin-top: 10px;
+    margin-left: 10px;
+    inline-size: 200px;
+    font-weight: 400;
+}
+
+.illustration-consistent-schedule{
+    height: 120px;
+    width: 160px;
+    margin-top: 12px;
+    margin-left: 10px;
+    object-fit: cover;
+}
+
+.fourth-div{
+    height: 465px;
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: hsl(254, 88%, 90%);
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.schedule{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.illustration-schedule-posts{
+    height: 18rem;
+    width: 24rem;
+    margin-top: 10px;
+    margin-left: -8px;
+    object-fit: contain
+}
+
+.Optimize{
+    margin-top: 15px;
+    margin-left: 45px;
+    inline-size: 280px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Your{
+    margin-left: 60px;
+}
+
+.fifth-div{
+    height: 330px;
+    width: 400px;
+    background-color: hsl(256, 67%, 59%);
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.illustration-grow-followers{
+    height: 190px;
+    margin-top: 15px;
+    margin-left: 70px;
+    object-fit: contain;
+}
+
+.Grow{
+    margin-top: 20px;
+    margin-left: 90px;
+    color: hsl(0, 0%, 100%);
+    inline-size: 190px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.content{
+    margin-left: 23px;
+}
+
+.sixth-div{
+    height: 170px;
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color:hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 8px;
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.percent{
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.faster{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.illustration-audience-growth{
+    height: 67px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.seventh-div{
+    height: 200px;
+    width: 400px;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.Create{
+    margin-top: 20px;
+    margin-left: 25px;
+    inline-size: 250px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.quicker{
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.illustration-create-post{
+    height: 75px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.eighth-div{
+    height: 340px;
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 1;
+    grid-row: 8;
+}
+
+.Write{
+    margin-top: 25px;
+    margin-left: 25px;
+    inline-size: 280px;
+    line-height: 0.7;
+    font-weight: 500;
+}
+
+
+.illustration-ai-content{
+    height: 220px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.attribution {
+    position: relative;
+    top: 20px;
+    left: 0
+}
+
+@media screen and (max-width: 375px) {
+    body {
+    font-family: "DM Sans", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.first-div {
+    height: 250px;
+    width: 330px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 1;
+}
+
+.social {
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+    inline-size: 240px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.first-span {
+    color: hsl(39, 100%, 71%);
+}
+
+.Faster {
+    font-style: italic;
+}
+
+.illustration-five-stars {
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.Over {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.second-div {
+    height: 155px;
+    width: 330px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color:hsl(0, 0%, 100%);
+    border: 4px solid hsl(0, 0%, 100%);
+    border-radius: 8px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.illustration-multiple-platforms {
+    object-fit: cover;
+    height: 67px;
+    width: 300px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.Manage {
+    margin-top: 10px;
+    margin-left: 10px;
+    inline-size: 300px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.third-div {
+    height: 192px;
+    width: 330px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.Maintain {
+    margin-top: 10px;
+    margin-left: 10px;
+    inline-size: 200px;
+    font-weight: 400;
+}
+
+.illustration-consistent-schedule {  
+    height: 120px;
+    width: 160px;
+    margin-top: 12px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+
+.fourth-div {
+    height: 465px;
+    width: 330px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: hsl(254, 88%, 90%);
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.schedule {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.illustration-schedule-posts {
+    height: 18rem;
+    width: 19rem;
+    margin-top: 10px;
+    margin-left: 8px;
+    object-fit: contain
+}
+
+.Optimize {
+    margin-top: 15px;
+    margin-left: 20px;
+    inline-size: 280px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Your {
+    margin-left: 60px;
+}
+
+.fifth-div {
+    height: 330px;
+    width: 330px;
+    background-color: hsl(256, 67%, 59%);
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.illustration-grow-followers {
+    height: 190px;
+    margin-top: 15px;
+    margin-left: 60px;
+    object-fit: contain;
+}
+
+.Grow {
+    margin-top: 20px;
+    margin-left: 70px;
+    color: hsl(0, 0%, 100%);
+    inline-size: 190px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.content {
+    margin-left: 23px;
+}
+
+.sixth-div {
+    height: 170px;
+    width: 330px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color:hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 8px;
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.percent {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.faster {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.illustration-audience-growth {
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.seventh-div {
+    height: 200px;
+    width: 330px;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.Create {
+    margin-top: 20px;
+    margin-left: 25px;
+    inline-size: 250px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.quicker {
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.illustration-create-post {
+    height: 75px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.eighth-div {
+    height: 340px;
+    width: 330px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 1;
+    grid-row: 8;
+}
+
+.Write {
+    margin-top: 25px;
+    margin-left: 25px;
+    inline-size: 280px;
+    line-height: 0.7;
+    font-weight: 500;
+}
+
+
+.illustration-ai-content {
+    height: 220px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.attribution {
+    position: relative;
+    top: 20px;
+    left: 0
+}
+   
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+    font-family: "DM Sans", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.first-div{
+    height: 250px;
+    width: 450px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 70px;
+    padding: 5px;
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 2/8;
+    grid-row: 1;
+}
+
+.social{
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: center;
+    inline-size: 350px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.first-span{
+    color: hsl(39, 100%, 71%);
+}
+
+.Faster{
+    font-style: italic;
+}
+
+.illustration-five-stars{
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.Over{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 105px;
+    font-weight: 400;
+}
+
+.seventh-div{
+    height: 340px;
+    width: 210px;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 360px;
+    padding: 5px;
+    grid-column: 1/8;
+    grid-row: 1;
+}
+
+.Create{
+    margin-top: 45px;
+    margin-left: 25px;
+    inline-size: 150px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.quicker{
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.illustration-create-post{
+    height: 75px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.fourth-div{
+    height: 500px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: hsl(254, 88%, 90%);
+    grid-column: 3/8;
+    grid-row: 1;
+}
+
+.schedule{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 400;
+    inline-size: 150px;
+    line-height: 1;
+}
+
+.illustration-schedule-posts{
+    object-fit: fill;
+    height: 280px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.Optimize{
+    margin-top: 20px;
+    margin-left: 8px;
+    inline-size: 190px;
+    line-height: 1;
+}
+
+.Your{
+    margin-left: 2px;
+}
+
+.second-div{
+    height: 250px;
+    width: 210px;
+    margin-top: -255px;
+    margin-left: 70px;
+    padding: 5px;
+    background-color:hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 8px;
+    grid-column: 2/8;
+    grid-row: 2;
+}
+
+.illustration-multiple-platforms{
+    object-fit: fill;
+    height: 70px;
+    width: 200px;
+    margin-top: 12px;
+    margin-left: 3px;
+}
+
+.Manage{
+    margin-top: 10px;
+    margin-left: 10px;
+    inline-size: 170px;
+    font-weight: 500;
+}
+
+.third-div{
+    height: 200px;
+    width: 210px;
+    margin-top: -252px;
+    margin-left: -215px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 3/8;
+    grid-row: 2;
+}
+
+.Maintain{
+    margin-top: 10px;
+    margin-left: 10px;
+    inline-size: 120px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.illustration-consistent-schedule{
+    object-fit: fill;
+    height: 98px;
+    width: 180px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.eighth-div{
+    height: 360px;
+    width: 210px;
+    margin-top: -370px;
+    margin-left: 360px;
+    border-radius: 8px;
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 1/8;
+    grid-row: 3;
+}
+
+.Write{
+    margin-top: 25px;
+    margin-left: 25px;
+    inline-size: 180px;
+    line-height: 0.9;
+    font-weight: 500;
+}
+
+
+.illustration-ai-content{
+    height: 180px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.sixth-div{
+    height: 198px;
+    width: 200px;
+    margin-top: 2px;
+    margin-left: 70px;
+    padding: 5px;
+    background-color:hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 8px;
+    grid-column: 2/8;
+    grid-row: 2;
+
+}
+
+.percent{
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.faster{
+    margin-top: 2px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.illustration-audience-growth{
+    height: 60px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.fifth-div{
+    height: 196px;
+    width: 440px;
+    background-color: hsl(256, 67%, 59%);
+    margin-top:  -205px;
+    margin-left: -220px;
+    padding: 5px;
+    border-radius: 8px;
+    grid-column: 3/8;
+    grid-row: 3;
+}
+
+.illustration-grow-followers{
+    height: 170px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.Grow{
+    margin-top: -130px;
+    margin-left: 220px;
+    color: hsl(0, 0%, 100%);
+    inline-size: 220px;
+    font-weight: 400;
+    font-size: 28px;   
+}
+
+.content{
+    margin-left: 2px;
+}
+
+.attribution{
+  position: relative;
+  top: 220px;
+  left: 60%
+
+}
+
+}
